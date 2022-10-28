@@ -92,7 +92,7 @@ class _JogoState extends State<Jogo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Text(''),
+        leading: const Text(''),
         title: const Text("PPT"),
       ),
       body: Column(
@@ -127,7 +127,7 @@ class _JogoState extends State<Jogo> {
                 child: Container(
                   decoration: BoxDecoration(
                       border: Border.all(width: tamanhoBordaPedra)),
-                  child: Icon(
+                  child: const Icon(
                     Icons.square_rounded,
                     size: 35,
                   ),
@@ -138,7 +138,7 @@ class _JogoState extends State<Jogo> {
                 child: Container(
                   decoration: BoxDecoration(
                       border: Border.all(width: tamanhoBordaPapel)),
-                  child: Icon(
+                  child: const Icon(
                     Icons.insert_drive_file,
                     size: 35,
                   ),
@@ -149,7 +149,7 @@ class _JogoState extends State<Jogo> {
                 child: Container(
                   decoration: BoxDecoration(
                       border: Border.all(width: tamanhoBordaTesoura)),
-                  child: Icon(
+                  child: const Icon(
                     Icons.colorize,
                     size: 35,
                   ),
